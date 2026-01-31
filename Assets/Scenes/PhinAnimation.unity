@@ -174,14 +174,14 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -214,7 +214,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -386,8 +386,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834644002}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.92387956, z: -0.38268343, w: 0}
-  m_LocalPosition: {x: 0.4, y: 1.4368751, z: 2}
+  m_LocalRotation: {x: -0.011578822, y: -0.95609576, z: 0.29032788, w: -0.03816575}
+  m_LocalPosition: {x: 0.026235107, y: 0.3050535, z: -9.199617}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -447,7 +447,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1fa063ce736eaac4da0d7fbb3707327d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1fa063ce736eaac4da0d7fbb3707327d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -455,7 +455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1fa063ce736eaac4da0d7fbb3707327d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.59
+      value: -9.583
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1fa063ce736eaac4da0d7fbb3707327d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -528,7 +528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e70a82bcfc168de49b117ca60c3cea81, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e70a82bcfc168de49b117ca60c3cea81, type: 3}
       propertyPath: m_LocalRotation.x
@@ -536,7 +536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e70a82bcfc168de49b117ca60c3cea81, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e70a82bcfc168de49b117ca60c3cea81, type: 3}
       propertyPath: m_LocalRotation.z
@@ -548,7 +548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e70a82bcfc168de49b117ca60c3cea81, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e70a82bcfc168de49b117ca60c3cea81, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -557,6 +557,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e70a82bcfc168de49b117ca60c3cea81, type: 3}
       propertyPath: m_Name
       value: SecurityGuardIdle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e70a82bcfc168de49b117ca60c3cea81, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
